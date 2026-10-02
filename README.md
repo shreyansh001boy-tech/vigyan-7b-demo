@@ -20,6 +20,21 @@ Experience India's sovereign STEM models live with **zero local installation**. 
 
 ---
 
+## 🔬 Specialized Domain Adapters (1-Click Colab Demos)
+
+Dedicated interactive Colab Gradio setups for specialized engineering, scientific, and statutory domains:
+
+| Domain | Model Adapter | Base Model | 1-Click Interactive Colab Demo |
+| :--- | :--- | :--- | :---: |
+| **Silicon EDA & RTL Design** | [`olmo2-7b-silicon-rtl-eda`](https://huggingface.co/shreyansh12183/olmo2-7b-silicon-rtl-eda) | OLMo-2-7B | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/silicon_rtl_eda_demo.ipynb) |
+| **Pure Mathematics & Proofs** | [`olmo2-7b-phd-pure-math`](https://huggingface.co/shreyansh12183/olmo2-7b-phd-pure-math) | OLMo-2-7B | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/phd_pure_math_demo.ipynb) |
+| **Astrophysics & Relativistic Mechanics** | [`olmo2-7b-astro-logic`](https://huggingface.co/shreyansh12183/olmo2-7b-astro-logic) | OLMo-2-7B | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/astro_logic_demo.ipynb) |
+| **Biomedical & Organic Chemistry** | [`olmo2-7b-biomed-chem`](https://huggingface.co/shreyansh12183/olmo2-7b-biomed-chem) | OLMo-2-7B | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/biomed_chem_demo.ipynb) |
+| **Indian Legal Reasoning (Vidhi AI)** | [`Vidhi-AI-Instruct`](https://huggingface.co/shreyansh12183/Vidhi-AI-Instruct) | Qwen2.5-7B | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/vidhi_ai_legal_demo.ipynb) |
+
+
+---
+
 ## 📊 Dual-Model Architectural Comparison
 
 ```
