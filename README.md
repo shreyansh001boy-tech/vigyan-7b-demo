@@ -27,6 +27,9 @@ Every notebook below runs on Google Colab's **free tier (Tesla T4 GPU)** with **
 | **Flagship 7B MoE** | `vigyan-olmoe-1b-7b-masterpiece` (64 Sparse Experts, Top-8 Routing) | **Sovereign Exam Core:** JEE Mains, CBSE, Olympiad Math (~85 tok/s) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_7b_moe_flagship_demo.ipynb) |
 | **Frontier 32B Titan** | `Vigyan-AI-32B-Titan-v1` (32B Heavy STEM Reasoner) | **PhD Research:** Multi-hop theorems & deep scientific proofs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_32b_titan_demo.ipynb) |
 | **Frontier 7B Unified** | `Vigyan-7B-STEM-DPO-v1` (OLMo-2 7B Dense) | **Deterministic Physics & Circuits:** Multi-step derivations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_7b_demo.ipynb) |
+| **2B Policy RL (GRPO)**| [`vigyan-2b-reasoning-grpo`](https://huggingface.co/shreyansh12183/vigyan-2b-reasoning-grpo) | **Reinforcement Learning:** Autonomous `<think>` scratchpad reasoning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_2b_grpo_reasoning_demo.ipynb) |
+| **2B DUS + CPT Healed**| [`Shreyansh-STEM-AI-2B-v3`](https://huggingface.co/shreyansh12183/Shreyansh-STEM-AI-2B-v3) | **22-Layer DUS:** Spliced layer expansion + CPT seam-healed manifold | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_2b_dus_cpt_healed_demo.ipynb) |
+| **Edge 1.5B 4x-MoE** | [`Vigyan-1.5B-4x-MoE`](https://huggingface.co/shreyansh12183/Vigyan-1.5B-4x-MoE) | **Compact Edge MoE:** Sub-1GB RAM, standalone Q4_K_M GGUF | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_1_5b_moe_demo.ipynb) |
 | **Multi-Expert 3B MoE**| `Vigyan-3B-4x-MoE` (Qwen 2.5 3B, 4 Experts) | **Balanced Code & Math:** Fast student tutor for laptops | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_3b_moe_demo.ipynb) |
 | **Universal Edge 2B** | `Vigyan-2B-STEM-Instruct-v1` (OLMo-2 2B) | **Edge SLM:** Rapid homework solver (boots in 15s, 1.8GB VRAM) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/vigyan_2b_demo.ipynb) |
 | **Specialist: Silicon RTL**| `olmo2-7b-silicon-rtl-eda` | **Chip Architecture:** Synthesizable Verilog HDL & ASIC timing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/domain_demos/silicon_rtl_eda_demo.ipynb) |
@@ -62,6 +65,46 @@ Dedicated 1-click Google Colab notebooks for each fine-tuned domain adapter in t
 | **Mathematics** | [`vigyan-3b-adapter-mathematics`](https://huggingface.co/shreyansh12183/vigyan-3b-adapter-mathematics) | Linear differential equations, matrix diagonalization, modular proofs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/3b_mathematics_colab.ipynb) |
 
 ---
+
+
+---
+
+## 🧬 7-Pillar Modern Post-Training & Architecture Methodology
+
+Rather than relying on basic supervised fine-tuning, the Vigyan AI models were developed through an institutional multi-stage lifecycle:
+
+```
+[Standard Base SLM]
+       │
+       ▼  1. Depth Up-Scaling (DUS)
+[22-Layer Spliced Architecture]  -->  (Interface Discontinuity / Layer Shock)
+       │
+       ▼  2. Continual Pre-Training (CPT) Seam Healing (2,400+ Parquet Shards)
+[CPT-Healed Manifold: shreyansh-1B-SLM-pretrain-stem-english]
+       │
+       ▼  3. All-Module Linear SFT (7 Projections, Dynamic Early-Stop @ Loss 0.1335)
+[Cured 0.048 Collapse --> Generalizing STEM Model]
+       │
+       ├──────────────────────────────────────────┐
+       ▼  4. GRPO Policy Gradient RL              ▼  5. DPO Preference Alignment
+[vigyan-2b-reasoning-grpo]                 [Vigyan-7B-STEM-DPO-v1]
+(Native <think> Reasoning Tokens)          (Deterministic Physics & Calculus)
+       │                                          │
+       └────────────────────┬─────────────────────┘
+                            ▼  6. Sparse MoE Upcycling (Top-1 / Top-8)
+       [Vigyan 1.5B 4x-MoE & Vigyan OLMoE 1B-7B (64 Experts)]
+                            │
+                            ▼  7. Sovereign Edge Delivery (Q4_K_M GGUF + SymPy AST)
+       [Vigyan-Models-GGUF & C++ KùzuDB GraphRAG Engine]
+```
+
+1. **Depth Up-Scaling (DUS):** SOLAR-style layer expansion scaling depth to 22 layers without full pretraining compute.
+2. **CPT Seam Healing:** Continual Pre-Training across 13.14 GB of raw STEM literature (`shreyansh-1B-SLM-pretrain-stem-english`) to re-align query-key subspaces across spliced layers.
+3. **All-Module Linear SFT:** Full-projection targeting (`q, k, v, o, gate, up, down`) with dynamic early-stopping at loss 0.1335, completely eliminating the historical 0.048 overfit collapse.
+4. **Group Relative Policy Optimization (GRPO):** DeepSeek-R1 style reinforcement learning eliciting self-directed step-by-step reasoning tokens (`<think>`).
+5. **Direct Preference Optimization (DPO):** Preference modeling for verifiable calculus and circuit derivations.
+6. **Sparse MoE Upcycling:** Top-1 (1.5B) and Top-8 (7B) routing with contrasting negative prompt router calibration.
+7. **Sovereign GGUF & Neuro-Symbolic Grounding:** Standalone Q4_K_M quantizations coupled with exact SymPy AST symbolic engines (+162.5% accuracy gain over unassisted baselines).
 
 ## 💻 Hardware Compatibility & Local Execution Options
 
