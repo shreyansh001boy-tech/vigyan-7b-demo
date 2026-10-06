@@ -37,6 +37,32 @@ Every notebook below runs on Google Colab's **free tier (Tesla T4 GPU)** with **
 
 ---
 
+## 🔬 Specialized Qwen-Family STEM Adapters (1.5B & 3B)
+
+Dedicated 1-click Google Colab notebooks for each fine-tuned domain adapter in the Qwen family, calibrated across Science, Technology, Engineering, and Mathematics:
+
+### ⚡ 1.5B Class: DeepSeek-R1 Distill Qwen Adapters (with Reasoning Tokens)
+*Base Model:* `deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B` | *Colab Footprint:* ~1.5 GB VRAM in 4-bit NF4
+
+| Domain | Model Adapter | Primary Specialties | 1-Click Colab Launch |
+| :--- | :--- | :--- | :---: |
+| **Science** | [`vigyan-1.5b-adapter-science`](https://huggingface.co/shreyansh12183/vigyan-1.5b-adapter-science) | Chemistry equilibrium, wave optics, cellular ATP synthesis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/1_5b_science_colab.ipynb) |
+| **Technology** | [`vigyan-1.5b-adapter-technology`](https://huggingface.co/shreyansh12183/vigyan-1.5b-adapter-technology) | B-Tree vs LSM storage, TCP congestion dynamics, cycle detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/1_5b_technology_colab.ipynb) |
+| **Engineering** | [`vigyan-1.5b-adapter-engineering`](https://huggingface.co/shreyansh12183/vigyan-1.5b-adapter-engineering) | RLC resonance, cantilever deflection, PID control overshoot | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/1_5b_engineering_colab.ipynb) |
+| **Mathematics** | [`vigyan-1.5b-adapter-mathematics`](https://huggingface.co/shreyansh12183/vigyan-1.5b-adapter-mathematics) | King's rule integrals, Fermat's Little Theorem, AP sequences | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/1_5b_mathematics_colab.ipynb) |
+
+### 🔬 3B Class: Qwen 2.5 Instruct Adapters (High-Fidelity Engineering)
+*Base Model:* `Qwen/Qwen2.5-3B-Instruct` | *Colab Footprint:* ~2.5 GB VRAM in 4-bit NF4
+
+| Domain | Model Adapter | Primary Specialties | 1-Click Colab Launch |
+| :--- | :--- | :--- | :---: |
+| **Science** | [`vigyan-3b-adapter-science`](https://huggingface.co/shreyansh12183/vigyan-3b-adapter-science) | Crystal Field splitting, apex angular momentum, Gibbs free energy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/3b_science_colab.ipynb) |
+| **Technology** | [`vigyan-3b-adapter-technology`](https://huggingface.co/shreyansh12183/vigyan-3b-adapter-technology) | Raft consensus, lock-free ring buffer atomics, MESI cache coherence | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/3b_technology_colab.ipynb) |
+| **Engineering** | [`vigyan-3b-adapter-engineering`](https://huggingface.co/shreyansh12183/vigyan-3b-adapter-engineering) | Sallen-Key filter transfer functions, inverted pendulum, FFT | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/3b_engineering_colab.ipynb) |
+| **Mathematics** | [`vigyan-3b-adapter-mathematics`](https://huggingface.co/shreyansh12183/vigyan-3b-adapter-mathematics) | Linear differential equations, matrix diagonalization, modular proofs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyansh001boy-tech/vigyan-7b-demo/blob/main/qwen_stem_demos/3b_mathematics_colab.ipynb) |
+
+---
+
 ## 💻 Hardware Compatibility & Local Execution Options
 
 Users can run Vigyan AI models across virtually any device:
